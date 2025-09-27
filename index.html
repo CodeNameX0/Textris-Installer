@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Textris 설치 페이지</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .button {
+      padding: 15px 30px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #1f1f1f;
+      border: 2px solid #333;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #333;
+      transform: scale(1.05);
+    }
+
+    .instructions {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: left;
+      max-width: 600px;
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Textris 설치하기</h1>
+
+  <div class="button-container">
+    <a class="button" href="https://github.com/user-attachments/files/22574016/Textris.zip" download>설치</a>
+    <a class="button" href="https://github.com/CodeNameX0/Textris/" target="_blank">깃허브 소스 코드</a>
+  </div>
+
+  <div class="instructions">
+    1. 설치 버튼을 눌러 <strong>Textris.zip</strong> 파일을 설치합니다.<br>
+    2. 폴더를 열고 압축을 풉니다.<br>
+    3. <strong>TEXTRIS_STARTER.bat</strong> 파일을 실행해 게임을 즐기세요.<br><br>
+    ⚠️ 이 게임은 <strong>데스크탑 전용</strong>입니다. 모바일 환경에서는 실행되지 않습니다.
+  </div>
+
+  <div class="footer">
+    © 2025 CodeNameX0. All rights reserved.
+  </div>
+</body>
+</html>
